@@ -7,7 +7,10 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/a12s/proprietary/lib/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libaptX_encoder.so \
+    vendor/samsung/a12s/proprietary/lib/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecril-client.so \
     vendor/samsung/a12s/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
+    vendor/samsung/a12s/proprietary/lib64/libsecril-client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsecril-client.so \
+    vendor/samsung/a12s/proprietary/lib64/libsec-ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec-ims.so \
     vendor/samsung/a12s/proprietary/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm 	\
     vendor/samsung/a12s/proprietary/etc/init/init.sec-charger.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.sec-charger.rc	\
     vendor/samsung/a12s/proprietary/system_ext/etc/build.prop:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/build.prop \
